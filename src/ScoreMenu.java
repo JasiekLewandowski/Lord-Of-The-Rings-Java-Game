@@ -5,14 +5,12 @@ import java.awt.event.ActionListener;
 import java.awt.event.WindowEvent;
 
 public class ScoreMenu extends JPanel implements ActionListener {
-    static Image img = Toolkit.getDefaultToolkit().getImage("Icons/pausemenu.png");
     JFrame frame;
     JButton replayButton;
     JButton exitToMenuButton;
     JButton exitButton;
     JButton winnerButton;
     String winnerFilePath;
-
 
     public ScoreMenu(int winner) {
         winnerFilePath = "Icons/" + winner + ".png";
