@@ -36,6 +36,6 @@ public class MainMenu implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         frame.dispose();
-        SecondMenu menu = new SecondMenu();
+        new SecondMenu();
     }
 }
