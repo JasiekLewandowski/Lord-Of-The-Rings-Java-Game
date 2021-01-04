@@ -20,7 +20,6 @@ public class Pong implements ActionListener, KeyListener {
     public int width = 1000;
     public int height = 700;
     public JFrame frame;
-    JLabel scoreBar;
     public Renderer renderer;
     public Music music;
     boolean w, s, up, down;
@@ -167,11 +166,11 @@ public class Pong implements ActionListener, KeyListener {
     }
     public void pauseMenu(){
         this.gameStatus = 1;
-        PauseMenu pauseMenu = new PauseMenu();
+        new PauseMenu();
     }
     public void printScore(int winner){
         this.gameStatus = 1;
-        ScoreMenu scoreMenu = new ScoreMenu(winner);
+        new ScoreMenu(winner);
     }
     @Override
     public void actionPerformed(ActionEvent e) {
