@@ -5,13 +5,10 @@ public class Paddle {
     public int paddleNumber;
     public int x, y, width = 50, height = 200;
     public int score;
-    //public static int speed = 14;
-    //public static int botSpeed = 14;
     Image image;
 
     public Paddle(Pong pong, int paddleNumber) {
         this.paddleNumber = paddleNumber;
-
         if (paddleNumber == 1) {
             this.x = 0;
         }
@@ -19,10 +16,9 @@ public class Paddle {
             this.x = pong.width - width;
         }
         this.y = pong.height/2 - this.height/2;
-
     }
-    public void render(Graphics2D g){
 
+    public void render(Graphics2D g){
         if (paddleNumber == 1){
             image = new ImageIcon("Icons/frodo.png").getImage();
             g.drawImage(image, x, y, null);
@@ -31,6 +27,7 @@ public class Paddle {
             g.drawImage(image, x, y, null);
         }
     }
+
     public void move (boolean up){
         if (up){
             if (y < 1){
@@ -39,13 +36,12 @@ public class Paddle {
                 y -= Pong.playerSpeed;
             }
         } else {
-            if (y + height >= Pong.pong.height){
-
-            } else {
+            if (y + height < Pong.pong.height){
                 y+= Pong.playerSpeed;
             }
         }
     }
+
     public void autoMove (){
         if (y < 0){
             y = 0;
@@ -58,9 +54,5 @@ public class Paddle {
         } else {
             y -= Pong.botSpeed;
         }
-    }
-
-    public int getScore() {
-        return score;
     }
 }
