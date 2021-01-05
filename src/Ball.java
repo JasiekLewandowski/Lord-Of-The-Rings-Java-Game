@@ -7,19 +7,15 @@ import java.io.IOException;
 import java.util.Random;
 
 public class Ball {
-    Image img = new ImageIcon("Icon/ball.png").getImage();
     public int x, y;
     public int motionX, motionY;
     public Random random;
     public Pong pong;
-
     public int radius = 50;
-    //public static int ballSpeed = 10;
 
     public Ball(Pong pong) {
         this.random = new Random();
         this.pong = pong;
-
         spawn();
     }
     public void spawn()
@@ -70,7 +66,6 @@ public class Ball {
                 }
             }
         }
-
         if (checkCollision(paddle1) == 1)
         {
             this.motionX = 1;
@@ -91,7 +86,6 @@ public class Ball {
                 motionY = 1;
             }
         }
-
         if (checkCollision(paddle1) == 2)
         {
             paddle2.score++;
@@ -103,6 +97,7 @@ public class Ball {
             spawn();
         }
     }
+
     public int checkCollision(Paddle paddle) {
         if (this.x < paddle.x + paddle.width && this.x + radius + 5 > paddle.x && this.y < paddle.y + paddle.height && this.y + radius > paddle.y)
         {
@@ -114,14 +109,15 @@ public class Ball {
             playSound(2);
             return 2; //score
         }
-
         return 0; //nothing
     }
+
     public void render (Graphics2D g){
         Image image = new ImageIcon("Icons/ball.png").getImage();
         g.clip(new Ellipse2D.Double(x, y, radius, radius));
         g.drawImage(image, x, y, null);
     }
+
     public void playSound (int soundIndex) {
         try {
             String audioPath = "Sounds/" + soundIndex + ".wav";
