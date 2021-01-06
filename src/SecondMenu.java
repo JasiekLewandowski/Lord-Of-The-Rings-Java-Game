@@ -4,7 +4,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class SecondMenu implements ActionListener {
-    Image img = Toolkit.getDefaultToolkit().getImage("4.jpg");
     JFrame frame;
     RendererMenu renderer;
     JButton singleplayerButton;
@@ -50,7 +49,7 @@ public class SecondMenu implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getActionCommand().equals("SETTINGS")) {
-            SettingsMenu settingsMenu = new SettingsMenu();
+            new SettingsMenu();
         }
         if (e.getActionCommand().equals("SINGLEPLAYER") || e.getActionCommand().equals("MULTIPLAYER")) {
             frame.dispose();
