@@ -4,7 +4,7 @@ Classic pong game in the style of the Lord of the Rings movies.
  </br>
  </br>
  
-<h2 align="center" style="background-color=black"> Five different levels :fire: </h2>
+<h2 align="center"> Five different levels :fire: </h2>
   </br> 
   <p align="center">
   <img src="/readme-pictures/levels2.png" width="80%">
