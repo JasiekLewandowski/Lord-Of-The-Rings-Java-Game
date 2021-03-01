@@ -10,7 +10,9 @@ Classic pong game in the style of the Lord of the Rings movies.
   
 ### Singleplayer and Multiplayer modes
 
+ <div align=”center”>
 ![fullimage](/readme-pictures/modes.jpg)
+ </div>
 
 
 # How to play
