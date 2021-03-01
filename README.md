@@ -7,7 +7,7 @@ Classic pong game in the style of the Lord of the Rings movies.
 ### Five different levels:
   </br> 
   <p align="center">
-  <img src="/readme-pictures/levels2.png" width="60%">
+  <img src="/readme-pictures/levels2.png" width="80%">
  </p>
 
 
