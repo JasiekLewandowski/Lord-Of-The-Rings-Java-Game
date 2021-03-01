@@ -12,7 +12,6 @@ Classic pong game in the style of the Lord of the Rings movies.
 
  <p align="center">
   <img src="/readme-pictures/modes.jpg">
-![fullimage](/readme-pictures/modes.jpg)
  </p>
 
 
