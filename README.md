@@ -1,22 +1,18 @@
-# OrderApp
+# Lord of The Rings Pong Game
 
-OrderApp is a simple web application for customer service in a bar.
+Classic pong game in the style of the Lord of the Rings movies. 
 
-# Features
+# Gameplay
 
-- Add new product
-- Get list of avaible products
-- Place an order
-- Get list of placed orders
-- Generate receipt (pay)
+### Five different levels:
+  
+  ![fullimage](/readme-pictures/levels.png)
+
+
+
+
 
 # Technologies
 
-OderApp is created with:
-
-* Spring Boot 2.4.1
-* Maven
-* H2 Database Engine
-* Lombok
-* Junit 5
-* Mockito
+* Java 11
+* Java Swing
