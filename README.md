@@ -6,7 +6,11 @@ Classic pong game in the style of the Lord of the Rings movies.
 
 ### Five different levels:
   
-  ![fullimage](/readme-pictures/modes.jpg)
+  ![fullimage](/readme-pictures/levels.png)
+  
+### Singleplayer and Multiplayer modes
+
+![fullimage](/readme-pictures/modes.jpg)
 
 
 
