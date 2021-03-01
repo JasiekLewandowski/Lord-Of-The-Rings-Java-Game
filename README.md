@@ -1,10 +1,10 @@
-# Lord of The Rings Pong Game
+# Lord of The Rings Pong Game 
 
 Classic pong game in the style of the Lord of the Rings movies. 
-
+ </br>
 # Gameplay
-
-### Five different levels:
+ </br>
+### Five different levels :fire: :
   </br> 
   <p align="center">
   <img src="/readme-pictures/levels2.png" width="80%">
