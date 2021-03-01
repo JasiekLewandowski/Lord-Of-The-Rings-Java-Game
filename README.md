@@ -2,16 +2,15 @@
 
 Classic pong game in the style of the Lord of the Rings movies. 
  </br>
-# Gameplay
  </br>
+ 
 <h2 align="center"> Five different levels :fire: </h2>
   </br> 
   <p align="center">
   <img src="/readme-pictures/levels2.png" width="80%">
  </p>
 
-
-### Singleplayer and Multiplayer modes :fire:
+<h2 align="center"> Singleplayer and Multiplayer modes :fire: </h2>
 </br>     
  <p align="center">
   <img src="/readme-pictures/modes.jpg" width="40%">
